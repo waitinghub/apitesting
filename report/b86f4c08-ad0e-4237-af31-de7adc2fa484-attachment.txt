@@ -1,0 +1,8 @@
+[1m[31mERROR   [0m test:test_organization.py:39 用例--所有信息为空--执行不通过
+[35mDEBUG   [0m test:test_organization.py:41 数据库查询预期结果是: 1
+[35mDEBUG   [0m test:test_organization.py:42 数据库查询实际结果是: 1
+[35mDEBUG   [0m test:test_organization.py:43 返回值预期结果是: {'code': '1', 'msg': '操作执行成功！'}
+[35mDEBUG   [0m test:test_organization.py:44 返回值实际结果是: {'code': '0', 'msg': "Column 'OrgName' cannot be null", 'result': None}
+[31mCRITICAL[0m test:test_organization.py:45 assert '1' == '0'
+  - 0
+  + 1

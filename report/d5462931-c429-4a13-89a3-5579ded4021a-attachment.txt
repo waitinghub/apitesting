@@ -1,0 +1,1 @@
+[32mINFO    [0m test:test_organization.py:48 用例--添加机构成功--执行通过

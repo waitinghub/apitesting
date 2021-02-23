@@ -1,0 +1,5 @@
+[31m[1mERROR   [0m test:test_organization.py:30 用例--所有信息为空--执行不通过
+[35mDEBUG   [0m test:test_organization.py:32 预期结果是：{'code': '', 'msg': ''}
+[35mDEBUG   [0m test:test_organization.py:33 实际结果是：{'code': '1', 'msg': '操作执行成功！', 'result': None}
+[31mCRITICAL[0m test:test_organization.py:34 assert '' == '1'
+  - 1

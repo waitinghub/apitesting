@@ -1,0 +1,1 @@
+[32mINFO    [0m wuji:test_login.py:36 用例--手机号未注册--执行通过

@@ -1,0 +1,5 @@
+2021-02-20 11:07:41,620 -- [test_organization.py-->line:30] - ERROR: 用例--所有信息为空--执行不通过
+2021-02-20 11:07:41,621 -- [test_organization.py-->line:32] - DEBUG: 预期结果是：{'code': '', 'msg': ''}
+2021-02-20 11:07:41,621 -- [test_organization.py-->line:33] - DEBUG: 实际结果是：{'code': '1', 'msg': '操作执行成功！', 'result': None}
+2021-02-20 11:07:41,622 -- [test_organization.py-->line:34] - CRITICAL: assert '' == '1'
+  - 1

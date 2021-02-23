@@ -1,0 +1,8 @@
+2021-02-22 14:09:09,652 -- [test_organization.py-->line:39] - ERROR: 用例--所有信息为空--执行不通过
+2021-02-22 14:09:09,652 -- [test_organization.py-->line:41] - DEBUG: 数据库查询预期结果是: 1
+2021-02-22 14:09:09,652 -- [test_organization.py-->line:42] - DEBUG: 数据库查询实际结果是: 1
+2021-02-22 14:09:09,652 -- [test_organization.py-->line:43] - DEBUG: 返回值预期结果是: {'code': '1', 'msg': '操作执行成功！'}
+2021-02-22 14:09:09,653 -- [test_organization.py-->line:44] - DEBUG: 返回值实际结果是: {'code': '0', 'msg': "Column 'OrgName' cannot be null", 'result': None}
+2021-02-22 14:09:09,653 -- [test_organization.py-->line:45] - CRITICAL: assert '1' == '0'
+  - 0
+  + 1
