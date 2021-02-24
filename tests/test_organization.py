@@ -21,13 +21,15 @@ class TestOrgmanage():
 
         headers = {}
         headers['Authorization'] = token
+        name = 'api测试' + str(random.randint(1,99999999))
         actual = request(method = test_data['method'],
                          url = read_config.get('env','host') + test_data['url'],
                          headers = headers,
-                         data = eval(test_data['data'].replace('测试name', 'api测试' + str(random.randint(1,99999999))))
+                         data = eval(test_data['data'].replace('测试name', name))
                          ).json()  # 发送请求，获得响应数据
 
-        db_check = self.db.find_count('select OrgName from organizationtable where ID = 10')  # 数据库查询添加数据
+        sql = 'select * from organizationtable where OrgName = \'{}\''.format(name)
+        db_check = self.db.find_count(sql)  # 数据库查询添加数据
 
         row = test_data['case_id'] + 1
         test_result = ''
